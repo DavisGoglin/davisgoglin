@@ -18,7 +18,7 @@ layout: base
         {% endif %}
 
         {% if site.include_jsonld %}
-	<script type="text/javascript">{% include me.jsonld %}</script>
+	<script type="application/ld+json">{% include me.jsonld %}</script>
 	{% endif %}
     </header>
     <main>
