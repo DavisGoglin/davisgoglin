@@ -16,6 +16,10 @@ layout: base
         {% if site.compass.tagline %}
         <div class="tagline-container"><p>{{ site.compass.tagline }}</p></div>
         {% endif %}
+
+        {% if site.include_jsonld %}
+	<script type="text/javascript">{% include me.jsonld %}</script>
+	{% endif %}
     </header>
     <main>
       {% if site.compass.include_content %}

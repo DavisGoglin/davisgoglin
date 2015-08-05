@@ -1,0 +1,17 @@
+{
+  "@context": "http://schema.org/",
+  "@type": "Person",
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "United States",
+    "addressRegion": "Washington"
+  },
+  "image": "http://goglinstudios.com/images/me.png",
+  "jobTitle": "Developer",
+  "name": "Davis Goglin",
+  "sameAs": [
+    "https://github.com/davisgoglin",
+    "https://www.linkedin.com/in/davisgoglin"
+  ],
+  "url": "http://goglinstudios.com"
+}

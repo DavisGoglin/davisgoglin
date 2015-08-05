@@ -1,6 +1,7 @@
 # general configuration
 url: http://goglinstudios.com
 baseurl: ''
+include_jsonld: true
 
 # compass configuration
 compass:
